@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajouter une voiture à l'agent</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ex_02.js"></script>
+</head>
+<body>
+<div id="container" class="container">
+    <div>
+        <label for="agentName">Nom de l'agent :</label>
+        <input type="text" id="agentName" placeholder="James Bond">
+
+        <label for="carBrand">Marque de la voiture :</label>
+        <input type="text" id="carBrand" placeholder="Aston Martin">
+        
+        <label for="carModel">Modèle de la voiture :</label>
+        <input type="text" id="carModel" placeholder="DB5">
+        
+        <label for="carColor">Couleur de la voiture :</label>
+        <input type="text" id="carColor" placeholder="Grise">
+        
+        <label for="carPower">Puissance de la voiture :</label>
+        <input type="text" id="carPower" placeholder="400ch">
+
+        <button onclick="addCarToAgentFromInputs()">Ajouter Voiture</button>
+        
+        <p id="result"></p>
+    </div>
+</div>
+</body>
+</html>
